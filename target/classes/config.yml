@@ -1,0 +1,17 @@
+messages:
+  you-give-warn: "\n&a● &fYou gave out &a%player% &fwarn, now he has: &a%warn-counts% &fwarns!\n&r"
+  you-has-warn: "\n&a● &fYou got a warp from &a%player%, &fyou now have: &a%warn-counts% &fwarns!\n"
+  broadcast-give-warn: "\n&a● &a%target-player% &f received a warp from &a%admin-player%, &f he now has &a%warn-counts% &fwarns! Reason: &a%reason%\n&r"
+  check-warns: "\n&a●&f you&a%warn-counts%&fwarns! \n \n&7 * Try not to get them! \n&r."
+  broadcast-player-over-warns: "\n&a● &a%player% &f exceeded the warp limit, it has been removed. &cThank you for your service and work!\n&r"
+  you-has-over-warns: "\n&a● &fYou have exceeded the warp limit, you have been dismissed! \n&r"
+  return-privs: "You've been given your job back! Sorry for the misunderstanding...\n&r"
+  broadcast-return-privs: "\n&a● &a%player% &furnished position! We apologize for the misunderstanding...\n&r"
+  player-already-has-zero: "\n&a● &f the player already has 0 warps..."
+  you-take-warn: "\n&a● &fYou took away &a1warn &from &a%player%, &fhe now has &a%warn-counts% &fwarns\n&r."
+  take-warn: "\n&a● &a%player% &f took 1 warp from you, now you have &a%warn-counts% &fwarns{n&r}"
+  no-in-database: "\n&a● &a%player% &f took 1 warp from you, now you have &a%warn-counts% &fwarns{n&r}"
+  how-to-use: "\n&a● &fUse &a/kwarn help &f for help! \n&r."
+  no-permissions: "\n&a● &fYou don't permission! \n&r."
+group:
+  name: "default"

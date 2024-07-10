@@ -1,0 +1,24 @@
+name: ToWarnSystem
+version: '${project.version}'
+main: me.seven.reintmase.towarnsystem.Main
+api-version: '1.16'
+depend:
+  - LuckPerms
+commands:
+  kwarn:
+    description: Варны
+    permission: "warns.admin"
+    usage: /kwarn
+permissions:
+  warnsystem.commands:
+    description: "Ability to write plugin commands"
+  warnsystem.give_warn:
+    description: "Possibility of issuing a warning"
+  warnsystem.take_warn:
+    description: "An opportunity to take back the warning"
+  warnsystem.return:
+    description: "Ability to restore a player"
+  warnsystem.my_info:
+    description: "Ability to view information about yourself"
+  warnsystem.info:
+    description: "Ability to view player info"
