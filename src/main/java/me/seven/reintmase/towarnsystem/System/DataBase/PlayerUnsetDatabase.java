@@ -45,9 +45,8 @@ public class PlayerUnsetDatabase {
     }
 
     public void addPlayerUnset(String uuid, Set<String> previousGroups) throws SQLException {
-        // Проверяем, существует ли уже запись для этого игрока
         if (isPlayerUnset(uuid)) {
-            return; // Если запись уже существует, ничего не делаем
+            return;
         }
 
         if (previousGroups == null) {
